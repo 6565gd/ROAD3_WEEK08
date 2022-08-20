@@ -1,0 +1,84 @@
+tx2 = await casino.acceptBet(hashA, valBwin, {value: 1e5})
+tx1 = await casino.proposeBet(hashA,{ value: 1e5})
+const valBwin = ethers.utils.keccak256(0x600D60A7)
+const hashA = ethers.utils.keccak256(valA)
+const valA = ethers.utils.keccak256(0xBAD060A7)
+控制台输入
+第七步 开始游戏
+casino = await factory.deploy()
+充值完成后，再次在控制台执行如下命令：
+充值
+我们首先去到 optimism的网站，然后充值
+第六步 充值
+如果执行最后一条命令时，出现insufficient funds的错误，说明钱包资金不足，需要充值。
+casino = await factory.deploy()
+再次继续
+factory = await factory
+继续
+factory = ethers.getContractFactory("Casino")
+继续
+BigNumber { value: "48335146483888624" }
+balance0 = await ethers.provider.getBalance((await ethers.getSigner()).address)
+继续输入
+signer = await ethers.getSigner();
+继续输入
+yarn  hardhat console --network optimism
+控制台输入
+第五步 编译合约
+关于私钥的获取方法，相信做其他几周任务时已经知道怎么做了，不再赘述。
+注意，上面代码中，倒数第4行、倒数第5行是需要你自己修改成自己的URL（详见第一步）和私钥。这个私钥一旦在完成本任务后，立马删除。
+};
+  }
+    }
+       accounts: [ "你的私钥" ]
+       url: "第一步新建的Optimism的HTTPS url",
+    "optimism": {
+  networks: {
+  solidity: "0.8.4",
+module.exports = {
+ */
+ * 切记私钥不要上传到仓库 切记 切记
+/**
+// Go to https://hardhat.org/config/ to learn more
+// You need to export an object to set up your config
+// Go to https://hardhat.org/config/ to learn more
+// You need to export an object to set up your config
+});
+  }
+    console.log(account.address);
+  for (const account of accounts) {
+  const accounts = await hre.ethers.getSigners();
+task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
+// https://hardhat.org/guides/create-task.html
+// This is a sample Hardhat task. To learn how to create your own go to
+require('dotenv').config()
+require("@nomiclabs/hardhat-waffle");
+找到hardhat.config.js，修改内容如下：
+第四步 修改配置合约
+加载项目
+然后登录 https://gitpod.io/workspaces 点击 “New workspace”，然后把我们 第二步 拿到的地址复制进去。复制进去以后，点击下面那块灰色区域，进行加载编辑项目。
+第三步 登录Gitpod
+Fork完成后，Github会转跳到我们自己的Github地址，在浏览器地址栏复制这个地址，下面第三步会用到。
+Fork代码
+（前提：你已经登录了自己的github）打开上面的Github仓库，然后点击右上角的Fork，将代码复制到我们自己的Github。
+帝哥已经将代码上传到了自己的Github仓库，同学们可以使用。这一步我是从帝哥那里直接获取的，是站在了帝哥的肩膀上。
+第二步 Fork代码
+新建Optimism后，点击VIEW KEY, 拷贝HTTPS，后面 第四步 会用到。
+复制HTTPS，后面会用到
+点击 View Key
+新建Optimism
+第一步，登录Alchemy网站，新建Optimism
+完成第八周任务共需八步，咱们就称为天龙八步吧。
+注意，本教程参考了帝哥写的教程，但是帝哥要求代码下载到本地，导致需要小白不知道该怎么做，所以完善了一下，写成了一个小白教程。
+Alchemy项目背景多雄厚不用多说了，咱们直接上第八周的小白教程，无需编程，无需安装任何东东，直接开搞。
+8 hours ago
+0xB564
+百亿项目Alchemy Road to Web3 第八周NFT获取教程
+Collect
+Subscribe
+casino = await factory.deploy()
+factory = await factory
+factory = ethers.getContractFactory("Casino")
+BigNumber { value: "48335146483888624" }
+balance0 = await ethers.provider.getBalance((await ethers.getSigner()).address)
+signer = await ethers.getSigner();
